@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --------------------------
+base styles 
+-------------------------- */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color:white;
+	
+    
+	
+}
+
+h1
+{
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: gray;
+	
+}
+
+h2,h3
+{
+	margin: 0 0 1em;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+h4
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:14px;
+	font-weight:bold;
+	color: #1B1B1B;
+}
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+.blue
+{
+	color:teal;
+	
+}
+.bred
+{
+	color:red;
+	font-weight: bolder;
+}
+.pcol3{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#1B1B1B;
+	}
+.gray{
+	color:gray;
+}
+/* --------------------------
+layout 
+-------------------------- */
+.header
+{
+	background-color: white;
+	padding: 1em;
+}
+.login
+{
+	height: 24px;
+		background-color:#A1D6E2;
+		text-align: right;
+		padding-top: 5px;
+		padding-right: 10px;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 12px;
+}
+.nav-bar
+{
+	color: #fff;
+	background-color:#1995ad;
+	text-align: right;
+}
+
+.content {  background-color: white;}
+.col2 { background-color: white; }
+
+
+.footer
+{
+	clear: both;
+	background-color:#0E293F;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	
+	
+  
+    
+}
+
+/* --------------------------
+nav 
+-------------------------- */
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0;
+}
+
+.nav a
+{
+	display: block;
+	padding: .7em .7em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
+
+.nav a:focus
+{
+	color: black;
+	background-color: white;
+}
+
+.nav a:hover
+{
+	color: black;
+	background-color:#A1D6E2;
+	
+}
+
+.nav a:active
+{
+	color: white;
+	background-color: red;
+}
+.current_page
+{
+	color: white;
+	background-color: red;
+}
+
+/* --------------------------
+wide screen 
+-------------------------- */
+
+@media (min-width:800px)
+{
+	.container{width:70%; margin:auto;border-left:1px solid lightgray;border-right:1px solid lightgray; position: relative;}
+	.login
+	{
+		height: 24px;
+		background-color:#A1D6E2;
+		text-align: right;
+		padding-top: 5px;
+		padding-right: 10px;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 12px;
+	}
+	
+	
+	.header {  height: 120px;
+	}
+	.nav-bar { padding: 1em ; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		border-bottom: 0;
+		background-color:#1995ad;
+		font-size: 14px;
+		font-weight: bold;
+		
+	}
+	
+	
+	.content
+	{
+		overflow: hidden;
+		background-color: white;
+
+	}
+	
+	.col1 { width: 70%; float: left;padding-left: 2%; padding-top:10px;text-align: justify;}
+	.col2 { width: 20%; float: left;padding-left: 6%; padding-right: 2%;padding-top:10px;text-align: justify;}
+	
+	
+	
+	.footer {  height: 50px; position: fixed;
+	width: 70%;
+	left:100;
+	bottom: 0; }
+}
+.image
+{
+	margin-top: 10px;
+	width: 200;
+	height:100px;
+	border-radius: 10px;
+}
+
+#grad4 {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, white, lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, white, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, white, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, white, lightblue); /* Standard syntax (must be last) */
+}
+
+
