@@ -43,6 +43,16 @@ p
 	margin: 0 0 1.5em;
 	line-height: 1.5;
 }
+.facebook{
+	float:right;
+	width:80px;
+	height: 40px;
+}
+.google{
+	float:right;
+	width:100px;
+	height: 40px;
+}
 .blue
 {
 	color:teal;
